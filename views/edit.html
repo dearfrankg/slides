@@ -1,0 +1,49 @@
+
+
+
+<div class="container">
+<div class="edit-form-page">
+
+
+
+    <div class="header">
+            <legend>Edit form</legend>
+    </div>
+
+    <div class="clearfix">
+
+
+        <div class="part1">
+            <form novalidate name="form" ng-submit="" >
+              <div class="clearfix">
+                <label>Name</label>
+                <input class="name" type="text" ng-model="item.name" autofocus>
+
+                <div>
+                <label>Description</label>
+                <textarea class="desc" ng-model="item.description"></textarea>
+                </div>
+              </div>
+            </form>
+        </div>
+
+
+        <div id="HTML" class="part2" >
+            <div>
+            <label>Markup</label>
+            <textarea class="data" ng-change="updateHtml()" ng-model="item.data"></textarea>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer ">
+            <button class="btn " ng-click="gotoList()"><i class="icon-list"></i> List</button>
+            <button class="btn " ng-click="gotoSlides()"><i class="icon-bar-chart"></i> Slides</button>
+            <button class="btn btn-success" ng-click="save()" ng-disabled="!hasChanges()||form.$invalid" >Save</button>
+            <button class="btn btn-danger" ng-click="remove()" ng-disabled=" ! item._id.$oid ">Remove</button>
+    </div>
+
+
+</div>
+</div>

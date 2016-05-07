@@ -1,0 +1,101 @@
+[
+    {
+        "id": "dearfrankg",
+        "name": "dearfrankg",
+        "submissionDate": "2012-11-28T14:14:01.000Z",
+        "desc": "A portfolio site designed to showcase my apps.",
+        "longDesc": "dearfrankg\n===========\n\nA portfolio site designed to showcase my apps.\n",
+        "url": "projects/ACTIVE/dearfrankg/app",
+        "path": "/Users/frankg/dev/code/lab/JAVASCRIPT/ANGULARJS/LAB/my-ajs-catalog/app/projects/ACTIVE/dearfrankg"
+    },
+    {
+        "id": "tube",
+        "name": "tube",
+        "submissionDate": "2013-03-08T09:11:34.000Z",
+        "desc": "Chrome for YouTube.",
+        "longDesc": "g-tube\n======\n\nChrome for YouTube.\n",
+        "url": "projects/ACTIVE/tube/app",
+        "path": "/Users/frankg/dev/code/lab/JAVASCRIPT/ANGULARJS/LAB/my-ajs-catalog/app/projects/ACTIVE/tube"
+    },
+    {
+        "id": "apollo-mission",
+        "name": "apollo-mission",
+        "submissionDate": "2012-11-08T18:17:05.000Z",
+        "desc": "An amazing gallery of the Apollo 11 Mission set to music by DJ Tiesto.",
+        "longDesc": "apollo mission\n=================\n\nAn amazing gallery of the Apollo 11 Mission set to music by DJ Tiesto.\n\n\nLicense\n-----------------------------\n\n(The MIT License)\n\nCopyright (c) 2011 Frank Gutierrez &lt;dearfrankg@gmail.com&gt;\n\n\n",
+        "url": "projects/DEMO/apollo-mission",
+        "path": "/Users/frankg/dev/code/lab/JAVASCRIPT/ANGULARJS/LAB/my-ajs-catalog/app/projects/DEMO/apollo-mission"
+    },
+    {
+        "id": "mortgage-calculator",
+        "name": "mortgage-calculator",
+        "submissionDate": "2013-02-13T09:17:21.000Z",
+        "desc": "Analyse mortgage loans using a fast amortization schedule generator.",
+        "longDesc": "mortgage calculator\n====================\n\nAnalyse mortgage loans using a fast amortization schedule generator.\n\n\nLicense\n-----------------------------\n\n(The MIT License)\n\nCopyright (c) 2011 Frank Gutierrez &lt;dearfrankg@gmail.com&gt;\n",
+        "url": "projects/DEMO/mortgage-calculator/app",
+        "path": "/Users/frankg/dev/code/lab/JAVASCRIPT/ANGULARJS/LAB/my-ajs-catalog/app/projects/DEMO/mortgage-calculator"
+    },
+    {
+        "id": "movies",
+        "name": "movies",
+        "submissionDate": "2013-02-07T16:41:44.000Z",
+        "desc": "Watch movies, trailers, stats and peruse the movie ranking database.",
+        "longDesc": "movies\n======\n\nWatch movies, trailers, stats and peruse the movie ranking database.\n\n\nLicense\n-----------------------------\n\n(The MIT License)\n\nCopyright (c) 2011 Frank Gutierrez &lt;dearfrankg@gmail.com&gt;\n",
+        "url": "projects/DEMO/movies/app",
+        "path": "/Users/frankg/dev/code/lab/JAVASCRIPT/ANGULARJS/LAB/my-ajs-catalog/app/projects/DEMO/movies"
+    },
+    {
+        "id": "slides",
+        "name": "slides",
+        "submissionDate": "2012-11-28T17:44:26.000Z",
+        "desc": "Create and manage presentations using markdown and HTML.",
+        "longDesc": "slides\n======\n\nCreate and manage presentations using markdown and HTML.\n\n\nLicense\n-----------------------------\n\n(The MIT License)\n\nCopyright (c) 2011 Frank Gutierrez &lt;dearfrankg@gmail.com&gt;\n\n",
+        "url": "projects/DEMO/slides/app",
+        "path": "/Users/frankg/dev/code/lab/JAVASCRIPT/ANGULARJS/LAB/my-ajs-catalog/app/projects/DEMO/slides"
+    },
+    {
+        "id": "ajs-app-catalog",
+        "name": "ajs-app-catalog",
+        "submissionDate": "2013-03-08T13:32:02.000Z",
+        "desc": "An app browser for AngularJS projects.",
+        "longDesc": "ajs-app-catalog\n---------------\n\nAn app browser for AngularJS projects.\n",
+        "url": "projects/LAB/ajs-app-catalog/app",
+        "path": "/Users/frankg/dev/code/lab/JAVASCRIPT/ANGULARJS/LAB/my-ajs-catalog/app/projects/LAB/ajs-app-catalog"
+    },
+    {
+        "id": "capture-image-demo",
+        "name": "capture-image-demo",
+        "submissionDate": "2013-02-11T01:00:17.000Z",
+        "desc": "capture-image-demo",
+        "longDesc": "capture-image-demo\n==================\n\nProof of concept: capture image data from remote url\n",
+        "url": "projects/LAB/capture-image-demo/app",
+        "path": "/Users/frankg/dev/code/lab/JAVASCRIPT/ANGULARJS/LAB/my-ajs-catalog/app/projects/LAB/capture-image-demo"
+    },
+    {
+        "id": "my-ajs-catalog",
+        "name": "my-ajs-catalog",
+        "submissionDate": "2013-03-10T09:16:08.000Z",
+        "desc": "An app browser for my AngularJS apps.",
+        "longDesc": "My AJS App Catalog\n-------------------\n\nAn app browser for my AngularJS apps.\n",
+        "url": "projects/LAB/my-ajs-catalog/app",
+        "path": "/Users/frankg/dev/code/lab/JAVASCRIPT/ANGULARJS/LAB/my-ajs-catalog/app/projects/LAB/my-ajs-catalog"
+    },
+    {
+        "id": "plunk",
+        "name": "plunk",
+        "submissionDate": "2013-02-21T21:22:14.000Z",
+        "desc": "Sirch is a quick AngularJS application demonstrating a few concepts that I have found helpful in creating Plunker.",
+        "longDesc": "# Sirch\n\nSirch is a quick AngularJS application demonstrating a few concepts that I have found helpful in creating Plunker.\n\n### Transpiling\n\n* The code is written in Coffee-Script but is compiled and served by Plunker transparently as Javascript\n* This html partial is in fact written in Markdown and is also compiled and served by Plunker transparently, but this time as HTML\n\n### AnguarJS pushState routing\n\nThis demo uses Angular's powerful pushState routing to allow users to use the back button as if full page reloads were happening.\n\n### Custom data source in AngularJS\n\nIf you look at the way the twitter search results are implemented, you will see that a novel technique is used to provide re-usable, refreshable\nresults.\n\n### Using resolve to ensure async resources are loaded before display\n\nRoute partials are not rendered until all required `resolve` promises have resolved.  This means there is a possible lag\nwhile both the partial and any required ajax requests are completed.  To help the user understand this, an overlay is used.\n\nThe overlay watches for `$routeChangeStart`, `$routeChangeSuccess` and `$routeChangeError` to allow it to display and hide itself\nwhile a route change is in progress.",
+        "url": "projects/LAB/plunk",
+        "path": "/Users/frankg/dev/code/lab/JAVASCRIPT/ANGULARJS/LAB/my-ajs-catalog/app/projects/LAB/plunk"
+    },
+    {
+        "id": "todo-demo",
+        "name": "todo-demo",
+        "submissionDate": "2013-02-22T04:10:13.000Z",
+        "desc": "A quick prototype app developed for an interview.",
+        "longDesc": "todo demo\n=========\n\nA quick prototype app developed for an interview.\n\n\n\n\n",
+        "url": "projects/LAB/todo-demo/app",
+        "path": "/Users/frankg/dev/code/lab/JAVASCRIPT/ANGULARJS/LAB/my-ajs-catalog/app/projects/LAB/todo-demo"
+    }
+]

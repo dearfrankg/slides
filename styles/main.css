@@ -1,0 +1,242 @@
+
+/*
+==================================
+ALL PAGES 
+==================================
+*/
+
+.loading {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  width: 300px;
+  height: 25px;
+  z-index: 2000;
+  font-family: "FontAwesome", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  font-variant: normal;
+  font-style: normal;
+  line-height: normal;
+}
+
+
+/*
+==================================
+LIST PAGE 
+==================================
+*/
+
+.list {
+  padding-top: 40px;
+}
+
+.brand i,
+.brand .title {
+  font-style: italic;
+}
+
+#main-menu li {
+  padding-top: 3px;
+  margin: 0 10px;
+}
+
+.name {
+  color: skyblue;
+  cursor: pointer;
+}
+
+.list-buttons {
+  width: 80px;
+}
+
+.list-buttons span {
+  margin-right: 5px;
+}
+
+.list-buttons span {
+  cursor: pointer;
+}
+
+
+
+
+
+
+/*
+==================================
+EDIT FORM PAGE 
+==================================
+*/
+
+.edit-form-page {
+  padding: 30px;  
+}
+
+.edit-form-page .part1, 
+.edit-form-page .part2 {
+  float: left;
+  width: 380px;
+  margin-right: 30px;
+}
+
+.edit-form-page .footer {
+  margin-top: 30px;  
+}
+
+textarea.data, textarea.desc { 
+  float: left;
+  resize:both;
+  min-height: 180px;
+  min-width: 350px;
+}
+
+textarea.data { 
+  min-height: 400px;
+}
+
+textarea.desc { 
+  min-height: 100px;
+}
+
+
+input.name { 
+  min-width: 350px;
+}
+
+.normal .image {
+  min-width: 150px;
+  text-align: center;
+}
+
+.normal img {
+  min-width: 150px;
+  height: 150px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.large .image {
+  min-width: 300px;
+  text-align: center;
+}
+.large img {
+  min-width: 300px;
+  height: 300px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.normal .icon-edit {
+  width: 28px;
+  height: 28px;
+}
+
+.search-query {
+  width: 200px;
+  min-width: 200px;
+}
+
+
+
+
+
+
+
+/*
+==================================
+NEEDS TO BE VERIFIED  
+==================================
+*/
+
+.homelink {
+  position: absolute;
+  top: -80px;
+  left:-400px;
+}
+
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal li,
+.reveal blockquote,
+.reveal q,
+.reveal p
+{
+  color: #eee;
+}
+.reveal h1 {
+  font-size: 72pt;
+}
+.reveal h2 {
+  font-size: 40pt;
+}
+.reveal h3 {
+  font-size: 24pt;
+}
+.reveal p {
+  font-size: 18pt;
+}
+.reveal li {
+  font-size: 30px;
+}
+.reveal .slides {
+    top: 50%;
+}
+.reveal blockquote {
+  font-size: 18pt; 
+  color: #add9e4;
+  text-align: left;
+}
+
+.reveal blockquote:before {
+  content: '';
+}
+.reveal blockquote:after {
+  content: '';
+}
+
+
+
+
+.reveal .mynav {
+  position: fixed;
+  width: 300px;
+  height: 25px;
+  z-index: 30;
+  left: 10px;
+  bottom: 10px;
+  font-family: "FontAwesome", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: -0.02em;
+  font-variant: normal;
+  font-style: normal;
+  line-height: normal;
+}
+.reveal .mynav li {
+  font-size: 100%;
+}
+
+.reveal a:not(.image) {
+  color: #add9e4;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

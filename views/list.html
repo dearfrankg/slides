@@ -1,0 +1,118 @@
+
+
+<div class="list container">
+  <div class="row-fluid">
+    <div >
+
+      <div class="navbar navbar-fixed-top"  >
+        <div class="navbar-inner">
+          <div class="container">
+
+            <a class="brand" href="#"><i class="icon-list-ul icon-large"></i><span class="title"> Slides</span></a>
+
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="navbar"  >
+        <div class="navbar-inner">
+          <div class="container">
+
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+
+            <form class="navbar-search"  ng-submit="location.path('/search/' + query)">
+              <input class="search-query" ng-model="query" type="text" placeholder="filter names...">
+            </form>
+
+            <div class="pull-right" id="main-menu">
+              <ul class="nav" id="main-menu-left">
+                <li>
+                  <buttons class="btn btn-success btn-small" ng-click="create()" >New Presentation</buttons>
+                </li>
+              </ul>
+            </div>
+
+            <div class="pull-left nav-collapse collapse" id="main-menu">
+              <ul class="nav" id="main-menu-left">
+                
+                <li>Sort by: 
+                  <buttons-radio model="sort.type" options="sort.button" class="btn-group" data-toggle="buttons-radio" ></buttons-radio>
+                </li>
+
+                <li>View: 
+                  <buttons-radio model="view.type" options="view.button" class="btn-group" data-toggle="buttons-radio" ></buttons-radio>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <table class="table table-bordered table-striped">
+
+        <!-- COMPACT --> 
+
+        <tr ng-show="view.type == 'Compact'" ng-repeat="project in projects | filter:{name:query} | orderBy:sort.type " >
+          <td>{{$index + 1}}</td>
+          <td>
+            <div class="list-buttons">
+              <span ng-click="show( project._id.$oid )" ><i class="icon-bar-chart icon-2x"></i></span>
+              <span ng-click="edit( project._id.$oid )" ><i class="icon-edit icon-2x"></i></span>
+            </div>
+          </td>
+          <td>
+            <div class="name" ng-click="show( project._id.$oid )" ><nobr>{{project.name}}</nobr></div>
+            {{project.description}}
+          </td>
+        </tr>
+
+        <!-- NORMAL --> 
+
+        <tr ng-show="view.type == 'Normal'" class="normal" ng-repeat="project in projects | filter:{name:query} | orderBy:sort.type " >
+          <td>{{$index + 1}}</td>
+          <td class="image" ><div ng-click="show( project._id.$oid )" ><img ng-src="images/{{project._id.$oid}}.jpg" ></div></td>
+          <td>
+            <span class="name" ng-click="show( project._id.$oid )" ><nobr>{{project.name}}</nobr></span>
+            <div class="list-buttons">
+              <span ng-click="show( project._id.$oid )" ><i class="icon-bar-chart icon-2x"></i></span>
+              <span ng-click="edit( project._id.$oid )" ><i class="icon-edit icon-2x"></i></span>
+            </div>
+            <p>Submitted: {{getMoment(project.created_on)}}</p>
+            <p>{{project.description}}</p>
+            <div><i class="icon-tags"></i><span class="badge " ng-repeat="tag in project.tags">{{tag}}</span></div>
+          </td>
+        </tr>
+
+        <!-- LARGE -->
+
+        <tr ng-show="view.type == 'Large'" class="large" ng-repeat="project in projects | filter:{name:query} | orderBy:sort.type " >
+          <td>{{$index + 1}}</td>
+          <td class="image" ><div ng-click="show( project._id.$oid )" ><img ng-src="images/{{project._id.$oid}}.jpg" ></div></td>
+          <td>
+            <span class="name" ng-click="show( project._id.$oid )" ><nobr>{{project.name}}</nobr></span>
+            <div class="list-buttons">
+              <span ng-click="show( project._id.$oid )" ><i class="icon-bar-chart icon-2x"></i></span>
+              <span ng-click="edit( project._id.$oid )" ><i class="icon-edit icon-2x"></i></span>
+            </div>
+            <p>Submitted: {{getMoment(project.created_on)}}</p>
+            <p>{{project.description}}</p>
+            <p>{{project.path}}</p>
+            <div><i class="icon-tags"></i><span ng-repeat="tag in project.tags">{{tag}}</span></div>
+          </td>
+        </tr>
+
+      </table>
+
+    </div>
+  </div>
+</div>
+
